@@ -13,18 +13,18 @@
     - nginx
     - mysql
     - golang
-    - perl
-    - php
-    - ruby
+    # - perl
+    # - php
+    # - ruby
     - python
-    - nodejs
+    # - nodejs
     - webapp.mysql
-    - webapp.golang
-    - webapp.perl
-    - webapp.php
-    - webapp.ruby
+    # - webapp.golang
+    # - webapp.perl
+    # - webapp.php
+    # - webapp.ruby
     - webapp.python
-    - webapp.nodejs
+    # - webapp.nodejs
     - webapp.nginx
 
     # for dev
@@ -48,6 +48,6 @@
       loop:
         - nginx.service
         - mysql.service
-        - isucari.golang.service
+        - isucari.python.service
         # - shipment.service
         # - payment.service
